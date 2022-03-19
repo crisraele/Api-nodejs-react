@@ -1,20 +1,16 @@
 import React from "react";
 //import {LoginPage} from "./pages/loginPage";
 //import {HomePage} from "./pages/homePage";
-import { AppRoutes } from "./routes";
+import { AppRouter } from "./routes";
+
 
 
 
 export const App = () => {
   
   return (
-    <>
-    
-      <AppRoutes />
-     
-
-    
-    </>
+      <AppRouter />  
+      
   );
 };
 
